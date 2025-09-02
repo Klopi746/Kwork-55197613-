@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "BoosterData", menuName = "Game/BoosterData")]
@@ -17,6 +16,6 @@ public class BoosterDataSO : ScriptableObject
         public int cost;           
     }
 
-    public BoosterInfo[] boosters; // Массив данных о бустерах
-    public string[] hints;// Массив с подсказками под каждый уровень
+    public BoosterInfo[] boosters; // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+    public string[] hints;// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 }

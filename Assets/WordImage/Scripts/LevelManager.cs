@@ -2,14 +2,13 @@ using Ricimi;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using YG;
 
 public class LevelManager: MonoBehaviour
 {
     [SerializeField] private UiManager uiManager;
-    public List<LevelDataSO> levels; // Список всех уровней
+    public List<LevelDataSO> levels; // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     public PopupOpener popupOpener;
     private int currentIndexLvl = 0;
 
