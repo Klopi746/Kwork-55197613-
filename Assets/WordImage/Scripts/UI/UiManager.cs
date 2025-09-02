@@ -96,7 +96,7 @@ public class UiManager : MonoBehaviour
 
     public void InitUiLvl(LevelDataSO level)
     {
-        mainImage.sprite = null;
+        // mainImage.sprite = null;
         // Отписка от событий
         KeyboardKey.OnKeyPressed -= onKeyPressed;
         KeyboardKey.OnBackspacePressed -= onBackspacePressed;
