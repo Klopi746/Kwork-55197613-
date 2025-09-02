@@ -18,6 +18,6 @@ public class RemoveUIComponents : MonoBehaviour
             Destroy(layoutElement);
 
         // Теперь можно удалить RectTransform
-        Destroy(this);
+        Destroy(this.gameObject);
     }
 }
