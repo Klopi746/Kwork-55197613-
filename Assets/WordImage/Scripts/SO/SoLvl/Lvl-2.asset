@@ -15,4 +15,4 @@ MonoBehaviour:
   levelNumber: 1
   image: {fileID: 21300000, guid: 37acb0dfcc04554499bf71d0c5e1fa3c, type: 3}
   correctWord: "\u0411\u041E\u0420\u0429"
-  imageUrl: https://storage.yandexcloud.net/word-game1/barista.png
+  imageUrl: 
