@@ -17,6 +17,11 @@ public class AddresablesManagerSCRIPT : MonoBehaviour
 
     private void Start()
     {
+        Invoke(nameof(StartLoadingAddresables), 1f);
+    }
+
+    private void StartLoadingAddresables()
+    {
         StartCoroutine(LoadAddresablesRoutine());
     }
 
